@@ -3,7 +3,7 @@ from google import genai
 from google.genai.errors import APIError 
 
 
-API_KEY = "AIzaSyCHnaORdwYL5mxUKu2Jmt0GojqEoRUsKDQ" # gemini api key section (no api key pre applied due to security reasons)
+API_KEY = "API KEY HERE" # gemini api key section (no api key pre applied due to security reasons)
 MODEL_ID = "gemini-2.5-flash" # The currently used model
 
 if API_KEY == "API KEY HERE":
@@ -85,5 +85,6 @@ Give brief, constructive feedback on the answers provided. Correct any incorrect
         print(f"\nAn unexpected error occurred: {e}")
 
 run_assistant()
+
 
 
